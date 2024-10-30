@@ -137,7 +137,7 @@ CharacterController:
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: 0.64, z: -0.39}
 --- !u!1 &5059044902677248985
 GameObject:
   m_ObjectHideFlags: 0
@@ -315,6 +315,7 @@ GameObject:
   - component: {fileID: 1615561392785773515}
   - component: {fileID: 4729762160013274376}
   - component: {fileID: 6154440396072281067}
+  - component: {fileID: 4508510998860150284}
   m_Layer: 0
   m_Name: Left Controller
   m_TagString: Untagged
@@ -683,6 +684,27 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1
   m_PhysicsTriggerInteraction: 1
+--- !u!135 &4508510998860150284
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5970981813673357625}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.075
+  m_Center: {x: 0.02, y: 0, z: 0}
 --- !u!1 &8584667429260432138
 GameObject:
   m_ObjectHideFlags: 0
@@ -976,6 +998,7 @@ GameObject:
   - component: {fileID: 399724360119254602}
   - component: {fileID: 5168457382624092411}
   - component: {fileID: 2994193225653685484}
+  - component: {fileID: 4738096848583337599}
   m_Layer: 0
   m_Name: Right Controller
   m_TagString: Untagged
@@ -1344,3 +1367,24 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1
   m_PhysicsTriggerInteraction: 1
+--- !u!135 &4738096848583337599
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9178681047886959313}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.075
+  m_Center: {x: -0.02, y: 0, z: 0}
